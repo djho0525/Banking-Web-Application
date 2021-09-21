@@ -1,0 +1,406 @@
+﻿body {
+    margin: 0;
+    background-color: dimgrey;
+}
+
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+    .topnav a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+        .topnav a:hover {
+            background-color: #444;
+            color: black;
+            border-radius: 10px;
+        }
+
+        .topnav a.active {
+            background-color: #2196F3;
+            color: white;
+        }
+
+    .topnav .login-container {
+        float: right;
+    }
+
+    .topnav input[type=text] {
+        padding: 6px;
+        margin-top: 8px;
+        font-size: 17px;
+        border: none;
+        width: 120px;
+        margin-right: 3px;
+    }
+
+    .topnav .login-container .login-button {
+        float: right;
+        padding: 6px 10px;
+        margin-top: 8px;
+        margin-right: 16px;
+        background-color: goldenrod;
+        color: black;
+        font-size: 17px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+        .topnav .login-container .login-button:hover {
+            background-color: gold;
+        }
+
+.logo {
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+}
+
+.button {
+    background-color: gold;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button1 {
+    background-color: white;
+    color: gold;
+    padding: 5px;
+    border: 2px solid gold;
+    border-radius: 15px;
+    position: absolute;
+    top: 25%;
+    right: 90px;
+}
+
+    .button1:hover {
+        background-color: gold;
+        color: white;
+        border-radius: 15px;
+    }
+
+.button2 {
+    background-color: gold;
+    color: white;
+    padding: 5px;
+    border: 2px solid gold;
+    border-radius: 15px;
+    position: absolute;
+    top: 25%;
+    right: 10px;
+}
+
+    .button2:hover {
+        background-color: goldenrod;
+        color: white;
+        border: 2px solid goldenrod;
+        border-radius: 15px;
+    }
+
+.button3 {
+    background-color: white;
+    color: gold;
+    padding: 5px;
+    border: 2px solid gold;
+    border-radius: 15px;
+    position: absolute;
+    top: 25%;
+    right: 170px;
+}
+
+    .button3:hover {
+        background-color: gold;
+        color: white;
+        border-radius: 15px;
+    }
+
+.button4 {
+    background-color: gold;
+    color: white;
+    padding: 5px;
+    border: 2px solid gold;
+    border-radius: 15px;
+    position: absolute;
+    top: 25%;
+    right: 90px;
+}
+
+    .button4:hover {
+        background-color: goldenrod;
+        color: white;
+        border: 2px solid goldenrod;
+        border-radius: 15px;
+    }
+
+.button5 {
+    background-color: #555;
+    color: white;
+    padding: 5px;
+    border: 2px solid #555;
+    border-radius: 15px;
+    position: absolute;
+    top: 25%;
+    right: 10px;
+}
+
+    .button5:hover {
+        background-color: #444;
+        color: white;
+        border: 2px solid #444;
+        border-radius: 15px;
+    }
+
+.button6 {
+    background-color: #555;
+    color: white;
+    padding: 5px;
+    border: 2px solid gold;
+    border-radius: 15px;
+    position: absolute;
+    margin-top: 10px;
+}
+
+    .button6:hover {
+        background-color: #444;
+        color: white;
+        border: 2px solid gold;
+        border-radius: 15px;
+    }
+
+.button7 {
+    background-color: #555;
+    color: white;
+    padding: 5px;
+    border: 2px solid gold;
+    border-radius: 15px;
+    position: absolute;
+    top: 25%;
+    right: 250px;
+}
+
+    .button7:hover {
+        background-color: #444;
+        color: white;
+        border: 2px solid gold;
+        border-radius: 15px;
+    }
+
+.button8 {
+    background-color: #555;
+    color: white;
+    padding: 5px;
+    border: 2px solid gold;
+    border-radius: 15px;
+}
+
+    .button8:hover {
+        background-color: #444;
+        color: white;
+        border: 2px solid gold;
+        border-radius: 15px;
+    }
+:disabled {
+    padding: 5px;
+    background-color: #333;
+    color: #888;
+    border: 2px solid gold;
+    border-radius: 15px;
+}      
+
+#login-container input[type=text], input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0.5px solid lightgrey;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-button {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background-color: gold;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .login-button:hover {
+        background-color: goldenrod;
+        color: white;
+    }
+
+#login-container {
+    border-radius: 15px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 25%;
+    background-color: #333
+}
+
+.loginlogo {
+    width: 33%;
+    height: 33%;
+    margin: 0 auto;
+    display: block;
+}
+
+.signup-button {
+    border: 0.5px solid gold;
+    background-color: white;
+    color: gold;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .signup-button:hover {
+        background-color: gold;
+        color: white;
+    }
+
+#required {
+    color: red;
+}
+
+.signuptext {
+    color: gold;
+}
+
+.DisplayBalanceCheckings {
+    color: gold;
+    border-radius: 15px;
+    padding: 50px 25px;
+    font-size: 50px;
+    font-family: Verdana;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+    margin-left: 5%;
+    margin-top: 10px;
+    width: 50%;
+    background-color: #555;
+}
+.DisplayBalanceCheckingsButton {
+    color: gold;
+    border-radius: 15px;
+    padding: 12.5px 12.5px;
+    font-size: 35px;
+    font-family: Verdana;
+    margin: auto;
+    width: 100%;
+    background-color: #555;
+}
+.DisplayBalanceSavings {
+    color: gold;
+    border-radius: 15px;
+    padding: 50px 25px;
+    font-size: 50px;
+    font-family: Verdana;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+    margin-left: 5%;
+    margin-top: 10px;
+    width: 50%;
+    background-color: #555;
+}
+.DisplayBalanceSavingsButton {
+    color: gold;
+    border-radius: 15px;
+    padding: 12.5px 12.5px;
+    font-size: 35px;
+    font-family: Verdana;
+    margin: auto;
+    width: 100%;
+    background-color: #555;
+}
+#AddMoney {
+    border-radius: 15px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 25%;
+    background-color: #333
+}
+
+.addmoneybutton {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background-color: gold;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .addmoneybutton:hover {
+        background-color: goldenrod;
+        color: white;
+    }
+
+#DollarSign {
+    position: absolute;
+    padding: 12px 10px;
+    margin-left: 0px;
+}
+
+#TextBoxAddMoney, input[type='number'] {
+    padding: 13px 18px;
+    margin-left: 0px;
+    width: 100%;
+    display: inline-block;
+    border: 0.5px solid lightgrey;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#AddMoney input[type=text], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0.5px solid lightgrey;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#DisplayRequests {
+    color: gold;
+    border-radius: 15px;
+    padding: 50px 25px;
+    font-size: 100%;
+    font-family: Verdana;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+    margin-left: 5%;
+    margin-top: 2.5%;
+    width: 50%;
+    background-color: #555;
+}

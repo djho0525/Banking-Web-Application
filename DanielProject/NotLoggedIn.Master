@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="NotLoggedIn.Master.cs" Inherits="DanielProject.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<link href="MasterStyle.css" rel="stylesheet" type="text/css" />
+
+<html>
+    <form id="loginform" runat="server">
+<head runat="server">
+    <div class="topnav">
+        <a href="Home.aspx"><img src="DPAY.png" class="logo"></a>
+        <div id ="loginsignupbuttons" runat="server"><asp:Button class="button1" runat="server"  OnClick="LoadLoginMethod" Text="Log In" Width="70px" />
+        <asp:Button class="button2" runat="server" OnClick="LoadSignupMethod" Text="Sign Up" Width="70px" /></div>
+    </div>
+    <asp:ContentPlaceHolder ID="HeadContentPlaceHolder" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</head>
+
+
+
+<body>
+        <div>
+            <asp:ContentPlaceHolder ID="BodyContentPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+</body>
+
+    </form>
+
+</html>
